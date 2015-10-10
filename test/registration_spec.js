@@ -16,7 +16,7 @@ describe("Registration", function () {
         it("creates a user", function () {
             regResult.success.should.be.defined;
         });
-        
+
         it("creates a log entry");
         it("sets the user's status to approved");
         it("offers a welcome message");
